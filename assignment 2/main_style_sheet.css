@@ -1,3 +1,9 @@
+body{
+	background-color:#017163;
+	color:white;
+	overflow:auto;
+}
+
 #map {
         width: 361px;
         height: 437px;
@@ -11,11 +17,6 @@
 	width: 361px;
     height: 437px;
 
-}
-
-body{
-	background-color:#017163;
-	color:white;
 }
 
 p {
@@ -105,12 +106,16 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 	padding: 0px 15px 15px 100px; 
 }
 
-.container {
-	width: 960px;
-	background-color: #017163;
-	margin: 0 left; /* the auto value on the sides, coupled with the width, centers the layout */
+.container{
+	width:800px;
+	height:400px;
+	padding:20px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background: black;	
 }
-
 .center {
     margin: auto;
     width: 60%;
@@ -136,4 +141,42 @@ table {
     border: 1px solid black;
 }
 
-	
+.slider_wrapper{
+	overflow: hidden;
+	position:relative;
+	height:280px;
+	top:auto;
+}
+#image_slider{
+
+	position: relative;
+	height: auto;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	/*Chrom default padding for ul is 40px */
+	padding:0px;
+	margin:0px;
+}
+#image_slider li{
+	position: relative;
+	float: left;
+}
+.nvgt{
+	position:absolute;
+	top: 120px;
+	height: 50px;
+	width: 30px;
+	opacity: 0.6;
+}
+.nvgt:hover{
+	opacity: 0.9;
+}
+#prev{
+	background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+	left: 0px;
+}
+#next{
+	background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+	right: 0px;
+}
