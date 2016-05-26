@@ -1,0 +1,661 @@
+body{
+	background-color:#017163;
+	color:white;
+	overflow:auto;
+}
+
+
+
+p {
+	padding-left:10px;
+	
+}
+	
+header{
+	font-size:50px;
+	background-color:#017164;
+
+}
+
+#header img {
+	margin-left:150px;
+	margin-top: 10px;	
+}
+h1 {
+
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	font-size: 60px;
+	font-style: italic;
+	font-weight: bold;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	margin-left: 220px;
+	margin-top: -100px;
+	
+}
+h2 {
+	font-size: 40px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+    border: #80A91F 2px solid;
+	background-color:#033443;
+	text-align:center;
+	
+	
+	
+}
+h3 {
+	font-size: 40px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	border: #80A91F 2px solid;
+	background-color:#033443;
+	text-align:center;
+}
+
+h4 {
+	font-size: 40px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	border: #80A91F 2px solid;
+	background-color:#033443;
+	text-align:center;
+}	
+
+
+
+#navigation {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+	
+#navigation ul li {
+	display: inline;
+	list-type: none;
+	box-sizing: border-box;
+	position:relative;
+}
+#navigation ul li a {
+	height: 20px;
+	margin: 4px;
+	padding: 0px 10px 0px 10px;
+	border: #80A91F 2px solid;
+	color: #80A91f;
+	font-size: 30px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	text-shadow: 1px 1px #000000;
+	background-color: #033443
+}
+#navigation ul li a:hover{
+	color:#09FFFF;
+	background-color:#80A91F;
+}
+#navigation ul li a:active{
+	color: #80A91F;
+	background-color: #09FFFF;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+.sidebar1 {
+	float: left;
+	width: 220px;
+	background-color:  #0CF;
+	padding-bottom: 10px;
+}
+
+
+
+
+.content {
+
+	padding: 10px 0 0 0px;
+	width: 740px;
+	float: left;
+}
+
+.content1{
+	padding: 10px 0 0 0px;
+	width: 300px;
+	float: right;
+}
+
+.content ul, .content ol { 
+	padding: 0px 15px 15px 100px; 
+}
+
+.container{
+	width:800px;
+	height:400px;
+	padding:20px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background: black;	
+}
+.center {
+    margin: auto;
+    width: 70%;
+    
+    padding: 10px;
+}
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+	color: white;
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    left: 10px; /* padding from the left side of the window */
+	color: white;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #017163;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  
+ #mainbody div{
+	color: #80A91f;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 2px 2px #033443;
+	}
+#mainbody ul  {
+	list-style-type: none;
+	border: thick solid ;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	font-size: 20px;
+	color: #80A91F;
+	background-color:#033443;
+	width:34%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left
+	
+	
+	
+	
+}
+	     
+.clearfix {
+	clear:both;
+}
+div.img img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #80A91F;
+    width: 180px;
+	float:left
+}
+#body_img1 {
+	float:left;
+	margin-left: 50px;
+	margin-top: -440px;
+	border:thick solid #80A91F;
+}
+#body_img2 {
+	float:right;
+	margin-right: 50px;
+	margin-top: -440px;
+	border:thick solid #80A91F;
+}
+
+
+hr {
+	clear: both;
+	height: 4px;
+	background: #1300BD;
+	margin: 5px 5px 5px 0px;
+}
+
+
+/*  contact us  */
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+	
+}
+
+/*  google map  */
+#googleMap {
+      width: 100%;
+      height: 400px;
+      
+  }  
+  
+ /*   button for contact  */ 
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*   drop menu  */
+ button.accordion {
+    background-color: #017163;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+	
+	color: #80A91f;
+	font-size: 20px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	text-shadow: 1px 1px #000000;
+	
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #017163;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+/*  make login*/
+
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/* end login */
+
+/* new */
+@media only screen and (max-width: 700px){
+.testing{
+	float:left;
+	position:relative;
+	display:inline;
+}
+}
+
+/* The Image Box */
+div.img {
+    border: thin solid #80A91F;
+    margin: 5px;
+	height:150px;
+	margin-left:40px;
+	width:auto;
+}
+
+div.img:hover {
+    border: thin solid #09FFFF;
+
+}
+
+/* The Image */
+div.img img {
+    cursor: pointer;
+	width:200px;
+	height:150px;
+	
+}
+
+/* Add Responsiveness */
+.responsive {
+    padding: 0 6px;
+    float: left;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Add Animation */
+
+
+@-webkit-keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Columns */
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/* Clear Floats */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#footer {
+	font-size: 30px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	border: #80A91F 2px solid;
+	background-color:#033443;
+	text-align:center;
+}
+#contact_us {
+    font-size: 30px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	text-shadow: 1px 1px #000000;
+	border: #80A91F 2px solid;
+	background-color:#033443;
+	text-align:center;	
+}
+legend {
+	color: #80A91f;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	font-size: 30px;
+	text-shadow: 1px 1px #000000;
+	border: #80A91F 2px solid;
+	background-color:#033443;
+	text-align:center;	
+}
+	
+form {
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	font-size: 30px;
+	text-align:center
+}
+#message {
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	font-size: 60px;
+	font-style: italic;
+	font-weight: bold;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	text-align:center;
+
+	
+}
+a, a:visted, a:visited, a:active {
+    text-decoration: none;
+    color:inherit;
+}
+#sponsors{
+	width: 35%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+td {align-content:center
+}
+
+#sign_up {
+    font-size: 30px;
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	border: #80A91F 2px solid;
+	background-color:#033443;
+	text-align:center;	
+}
+
+#body nav{
+	font-family: "Bodoni MT Poster Compressed", Bodoni MT Condensed, Bodoni MT Black;
+	color: #80A91f;
+	text-shadow: 1px 1px #000000;
+	border: #80A91F 2px solid;
+	background-color:#033443;
+	}

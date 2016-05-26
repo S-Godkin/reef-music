@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barrier-Reef-Orchestra-index</title>
+<link href="main_style_sheet.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="main_javascript.js" rel="stylesheet" type="text/javascript"  />
+
+
+</head>
+
+<body>
+
+<div id="header">
+<div>
+<img src="img/banner.png" width="668" height="153" alt=""/>
+<h1>Barrier Reef Orchestra</h1>
+</div>
+</div>
+<!--end of header div -->
+
+<div id="navigation">
+<nav>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="news&events.html">News and Events</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="support_us.html">Supporters</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="about_us.html">About Us</a></li>
+  </ul>
+  </nav>
+</div>
+<!-- end of navigation div -->
+
+<div class="sidebar1">
+<img src="img/instruments_strings_dsc0375.jpg", width="220px" alt=""/>
+<h3> <a href="contact_us.html">Become a Member or Player</a></h3>
+<p>Interested in becoming a member of, or a player in, the Orchestra? </p>
+
+ 
+  <img src="img/townsville-council-logo.jpg", alt="center"  />
+  <p>&nbsp;</p>
+  
+ 
+    
+
+    <!-- end .sidebar1 --></div>
+    
+<div class="content"> 
+  <h2>The Barrier Reef Orchestra - A North Queensland Icon </h2>
+
+<p>The Barrier Reef Orchestra was formed in Townsville in 2000 after a workshop conducted by Richard McIntyre from Canberra. Over the past 15 years it has gone from strength to strength and now presents three main concerts a year, as well as smaller concerts such as the children’s concert Peter and the Wolf in 2014. We are a community orchestra, drawing players from a large cross section of the Townsville community and sometimes beyond. All are drawn together by their great love of orchestral music and desire to provide North Queensland with quality performances. Depending on the program up to 50 musicians play a wide ranging repertoire which has included some of the great orchestral compositions such as the New World Symphony by Dvorak and most of the Beethoven symphonies as well as Tchaikovsky and Bizet.</p>
+
+<p>An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience was recently followed by Peter Sculthorpe’s Mangroves, a collaboration with audio-visual artists, ABC radio and Umbrella Studios. The programs are testament to the orchestra’s willingness to embrace mainstream classical repertoire as well as opportunities for collaboration.</p>
+
+<p>An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience, won the Townsville City Council Arts Award for best musical production in 2011. This was recently followed by performing Peter Sculthorphe’s Mangroves, a collaboration with audio-visual artists, performing on ABC radio and at Umbrella Studios. Another recent highlight was playing with James Morrison for the second time to present Latin Fiesta, which was originally done with the Western Australian Orchestra.</p>
+
+<p>In 2015 the orchestra was invited to perform in three festivals, joining with the AFCM to present a free public concert in Queens Garden the 1812!; Dancenorth at Jezzine Barracks for Twilight and featured in World Music as part of the Townsville Civic Theatre music season. This was a first for the orchestra - underscoring its value to the community and highlighting its continued prominence in the cultural soundscape of North Queensland.</p>
+
+<p>Now to 2016 which is going to be a stellar year for your Orchestra. Already we have our three major concerts which will include opera, featuring Paul Tabone born in Ingham, but now working the international stage as a tenor based in Italy. Rachmaninov’s Piano Concerto No.2 featuring last year’s winner of the instrumental section of the ACVC, Arthur Athan. Our opening performance titled Dreams and Dances is sure to have some favourites such as Afternoon of a Fawn by Debussy.</p>
+
+<p>We are also pleased to be part of the Townsville 150 Concert where we will share the stage with the likes of David Campbell, Luke Kennedy, Bronwyn Douglas and the 1 RAR Band just to name a few of the guests. We will be back to Queens Gardens for a repeat performance as part of AFCM due to the huge popularity of last year’s concert. </p>
+
+
+
+
+
+
+
+
+<hr />
+
+<!-- add go back to top -->
+<div class="clearfix"></div>
+<div id= "footer">
+<a href="index.html">Back to the top</a>
+</div>
+
+</div>
+
+<div class="content1">
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img/img_avatar2.png" alt="Avatar" class="avatar" width="220px">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="text" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(-19.3103359,146.7024467);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!-- end Google Maps -->
+
+<!-- facebook plugin -->
+<div class="fb-page" data-href="https://www.facebook.com/nqorchestra" data-tabs="timeline" data-width="260" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/nqorchestra"><a href="https://www.facebook.com/nqorchestra">Barrier Reef Orchestra</a></blockquote></div></div>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+
+<!-- end facebook plugin -->
+</div>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p>. </p>
+
+</body>
+</html>
